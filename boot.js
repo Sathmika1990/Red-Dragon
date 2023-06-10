@@ -1,43 +1,89 @@
 /*
 
-█   █   █       █    █▅   ▅█    █      █     ██████     █      █    █     █
-█ █     █       █    █  █ █  █    █      █       █        █      █    █     █
-██      █       █    █   █   █    █      █       █        ████████    █     █
-█ █     █       █    █       █    █      █       █        █      █    █     █
-█   █    ▀▅▃▅▀    █        █    ▀▅▃▅▀       █        █      █    ▀▅▃▅▀  
-╦   ╦      ╔══╗      ╦        ╦     ╔══╗         ╦        ╦      ╦      ╔══╗
-
-╔═══❤️═══🧡═══💛═══🤍═══💚═══💙═══💜═══╗
-║
-║
-║
-╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗞.𝗣𝗿𝗮𝗯𝗵𝗮𝘀𝗵𝗮´]
-║
-║
-║
-╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯
-║
-╠═══════(github.com/prabhasha2006)═══════╣
-║
-║    ▒ ▒          ▒ ▒ ▒       ▒ ▒ ▒ ▒ ▒  
-║    ▒    ▒      ▒     ▒          ▒      
-║    ▒    ▒     ▒       ▒         ▒       
-║    ▒ ▒        ▒       ▒         ▒
-║    ▒    ▒     ▒       ▒         ▒
-║    ▒    ▒      ▒     ▒          ▒
-║    ▒ ▒          ▒ ▒ ▒           ▒
-║   
-║
-╚═══❤️═══🧡═══💛═══🤍═══💚═══💙═══💜═══╝
-
-*/
-
-
-
-
-                        
-
-
+█   █   █       █    █▅   ▅█    █      █     ██████     █      █    █     █{
+  "name": "Red-Dragon-MD",
+  "version": "4.0.0",
+  "description": "Automated whatsapp md bot created using nodejs",
+  "main": "boot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node boot.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "red-dragon",
+    "base",
+    "baileys-md",
+    "bot",
+    "bot-md",
+    "multi-device"
+  ],
+  "author": "Xeon",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:prabhasha2006/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@bochilteam/scraper": "^2.0.0",
+    "@shineiichijo/marika": "^2.0.2",
+    "@develoka/angka-terbilang-js": "^1.4.2",
+    "@shineiichijo/nhentai-pdf": "^1.0.5",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "tod-api": "^1.0.5",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "got": "^11.8.3",
+    "dhn-api": "^1.1.3",
+    "emoji-api": "^1.0.2",
+    "textmaker-thiccy": "^1.3.1",
+    "g-i-s": "^2.1.6",
+    "google-it": "^1.6.2",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.16.1",
+    "jsdom": "^16.4.0",
+    "lowdb": "^2.1.0",
+    "mongoose": "^6.2.1",
+    "moment-timezone": "^0.5.34",
+    "mumaker": "^1.0.0",
+    "node-cron": "^3.0.0",
+    "anime-wallpaper": "^1.0.2",
+    "node-fetch": "^2.6.1",
+    "node-webpmux": "^3.1.0",
+    "os": "^0.1.2",
+    "hxz-api": "^1.0.1",
+    "minecraft-query": "^1.0.13",
+    "path": "^0.12.7",
+    "perf_hooks": "0.0.1",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "remove.bg": "^1.3.0",
+    "scrape-primbon": "^1.1.0",
+    "util": "^0.12.4",
+    "yargs": "^17.2.1",
+    "xfarr-api": "^1.0.2",
+    "yt-search": "^2.10.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGXeon/CheemsBot-MD4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DGXeon/CheemsBot-MD4/issues"
+  },
+  "homepage": "https://github.com/DGXeon/CheemsBot-MD4#readme"
+}
 
 
 
@@ -98,7 +144,7 @@
 
 
 require('./settings')
-const { default: KUMUTHUConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: KUMUTHUConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys"
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
